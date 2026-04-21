@@ -31,3 +31,4 @@ conn.commit()
 rows = conn.execute('SELECT * FROM products').fetchall()
 for r in rows:
     print(r)
+
